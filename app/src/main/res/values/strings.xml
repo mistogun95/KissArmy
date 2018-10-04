@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">KissArmy</string>
+    <string name="search">Search</string>
+    <string name="login">SignIn</string>
+    <string name="registration">SignUp</string>
+    <string name="UserLoginRegistration">User</string>
 </resources>

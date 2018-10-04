@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/iconHamburger"
+        android:icon="@drawable/ic_menu"
+        app:showAsAction="ifRoom|withText"
+        android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/Login"
+                android:title="Login">
+                <!--android:onClick="launchLogin"-->
+            </item>
+            <item
+                android:id="@+id/SignUp"
+                android:title="SignUp">
+                <!--android:onClick="launchSignUp"-->
+            </item>
+        </menu>
+    </item>
+
+
+
+
+</menu>
